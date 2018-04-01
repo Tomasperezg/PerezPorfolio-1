@@ -67,4 +67,63 @@ body {
   width: 50%;
   padding-bottom: 50px;
   display: block;
+  line-height: 2;
+}
+
+}
+ .imgs{
+  max-width: 100%;
+  box-shadow: 5px 10px black;
+  order: 1px solid black;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.About{
+  float: right;
+  border: 2px solid black;
+  display: table;
+  width: 20%;
+}
+
+.bans{
+  border: 2px solid black;
+  width: 20%;
+  display: table;
+}
+
+.logo{
+  text-align: center;
+  padding-top: 20%;
+}
+
+@media screen and (max-width: 959px){
+  .info{
+    width: 50%;
+  }
+  .header{
+    width: 50%;
+  }
+  .About{
+    width: 40%;
+  }
+  .bans{
+    width: 40%;
+  }
+
+}
+
+@media screen and (max-width: 600px){
+  .About{
+    width: 100%;
+  }
+  .bans{
+    width: 100%;
+  }
+  .info{
+    width: 50%;
+  }
+  .header{
+    width: 50%;
+  }
 }
