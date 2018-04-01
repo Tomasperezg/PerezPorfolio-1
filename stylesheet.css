@@ -2,6 +2,7 @@ body {
       margin: 0;
       padding: 0;
       background: #ccc;
+      font-family: 'Palanquin', sans-serif;
     }
 
     .nav ul {
@@ -56,5 +57,14 @@ body {
 
 .header{
   text-align: center;
-  font-family: arial;
+  font-family:'Poiret One', cursive;
+}
+
+.info{
+  text-align: center;
+  margin: auto;
+  border: 2px solid black;
+  width: 50%;
+  padding-bottom: 50px;
+  display: block;
 }
