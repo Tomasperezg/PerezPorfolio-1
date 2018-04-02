@@ -84,17 +84,21 @@ body {
   border: 2px solid black;
   display: table;
   width: 20%;
+  position: relative;
+  right: 20%;
 }
 
 .bans{
   border: 2px solid black;
   width: 20%;
   display: table;
+  position: relative;
+  left: 20%;
 }
 
 .logo{
   text-align: center;
-  padding-top: 20%;
+  padding-top: 10%;
 }
 
 @media screen and (max-width: 959px){
